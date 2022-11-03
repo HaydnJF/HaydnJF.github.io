@@ -56,7 +56,11 @@ var randomNumber = Math.floor(Math.random() * (quotes.length));
 document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 }
 
+function textChange(){
+  view.innerHTML = 'Another One?';
+}
 
+view.addEventListener('click', textChange);
 
 
 
