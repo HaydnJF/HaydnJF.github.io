@@ -57,10 +57,10 @@ document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 }
 
 function textChange(){
-  view.innerHTML = 'Another One?';
+  btn.innerHTML = 'Another One?';
 }
 
-view.addEventListener('click', textChange);
+btn.addEventListener('click', textChange);
 
 
 
